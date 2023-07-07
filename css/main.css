@@ -159,7 +159,6 @@ main {
     width: 238px;
     height: 1px;
     background-color: #EDF0F5;
-
 }
 
 .text-of-profile-part {
@@ -266,7 +265,6 @@ main {
 .icons-texts .links-of-group figure {
     width: 12px;
     height: 12px;
-
 }
 
 .icons-texts .links-of-group figure .icon-users-6 {
@@ -317,3 +315,252 @@ main {
 
 /* left-side-footer */
 /* LEFT SIDE */
+
+/* MIDDLE SIDE */
+.middle-side {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.post {
+    width: 540px;
+    height: 124px;
+    background-color: white;
+    padding-top: 29px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    border-radius: 6px;
+}
+
+.post .contenteditable {
+    color: #AAA;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+}
+
+.post .long-hr {
+    width: 508px;
+    height: 1px;
+    background-color: #EDF0F5;
+    margin-top: 19px;
+}
+
+.post-icons div {
+    margin-top: 17px;
+}
+
+.post-icons div a :nth-child(1) {
+    margin-right: 8px;
+}
+
+.post-icons div a :nth-child(2):not(:last-child) {
+    margin-right: 62px;
+}
+
+/* Filter Post By */
+.filter {
+    width: 540px;
+    height: 42px;
+    border-radius: 6px;
+    padding: 13px 16px;
+    margin-top: 20px;
+    margin-bottom: 14px;
+    background-color: #DEDEDE3D;
+}
+
+.filter :nth-child(1) {
+    flex-grow: 1;
+}
+
+.filter :nth-child(2) {
+    margin-right: 16px;
+}
+
+/* Filter Post By */
+
+/* Shared Post */
+.shared-post {
+    width: 540px;
+    height: 553px;
+    background-color: white;
+    border-radius: 6px;
+    padding-top: 13px;
+    padding-left: 16px;
+    padding-bottom: 21px;
+    padding-right: 16px;
+}
+
+.shared-post .about-user div .figure-xl img {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+
+.text-about-user :nth-child(1) {
+    color: #17272F;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text-about-user {
+    margin-left: 12px;
+}
+
+.text-about-user :nth-child(2) {
+    color: #AAA;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.text-about-user :nth-child(3) {
+    color: #AAA;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about-user :nth-child(2) {
+    flex-grow: 1;
+}
+
+.post-long-hr {
+    width: 508px;
+    height: 1px;
+    background-color: #EDF0F5;
+    margin-top: 9px;
+    margin-bottom: 21px;
+}
+
+/* .content-of-post {
+    margin-bottom: 20px;
+} */
+
+.content-of-post :nth-child(1),
+.content-of-post :nth-child(2) {
+    color: #17272F;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.content-of-post :nth-child(2) {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.content-of-post :nth-child(2) a {
+    color: #069;
+    font-weight: 500;
+}
+
+.content-of-post figure img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.post-long-hr2 {
+    width: 508px;
+    height: 1px;
+    background-color: #EDF0F5;
+}
+
+.likes-comments {
+    margin-top: 20px;
+}
+
+.likes-comments :nth-child(4) {
+    width: 10px;
+    height: 10px;
+    position: relative;
+}
+
+.likes-comments :nth-child(4) .icon-ellipse {
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+}
+
+.likes-comments :nth-child(1) {
+    margin-right: 9px;
+}
+
+.likes-comments :nth-child(2) {
+    margin-right: 22px;
+}
+
+.likes-comments :nth-child(3) {
+    margin-right: 6px;
+    color: #17272F;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.likes-comments :nth-child(5) {
+    margin-left: 6px;
+    color: #17272F;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.like div a :nth-child(1) {
+    margin-right: 8px;
+}
+
+.like div a :nth-child(2) {
+    margin-right: 17px;
+}
+
+.like div {
+    color: #AAA;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pic-comment .pic figure {
+    width: 32px;
+    height: 32px;
+}
+
+.pic-comment .pic figure img {
+    width: 100%;
+    height: 100%;
+    border-radius: 33px;
+}
+
+.writing {
+    width: 459px;
+    height: 48px;
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px solid #EDF0F5;
+    background-color: white;
+}
+
+.comment .writting figure {
+    flex-grow: 1;
+}
+
+.short-hr {
+    width: 2px;
+    height: 32px;
+    background-color: #EDF0F5;
+}
+
+/* Shared Post */
+/* MIDDLE SIDE */
