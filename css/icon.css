@@ -103,3 +103,25 @@
 }
 /* MIDDLE SIDE */
 
+/* RIGHT SIDE */
+.icon-plus {
+    background-image: url(../img/plus.svg);
+}
+
+.icon-more-horizontal-png {
+    background-image: url(../icons/more-horizontal-png.png);
+}
+
+.icon-edit-1 {
+    background-image: url(../icons/edit-1.svg);
+}
+
+.icon-horizontal-1 {
+    background-image: url(../icons/more-horizontal-1.svg);
+}
+
+.icon-chevron-up-1 {
+    background-image: url(../icons/chevron-up-1.svg);
+}
+/* RIGHT SIDE */
+
