@@ -348,6 +348,13 @@ main {
     margin-top: 19px;
 }
 
+.post-icons div a :nth-child(2) {
+    color: #17272F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
 .post-icons div {
     margin-top: 17px;
 }
@@ -433,7 +440,7 @@ main {
 .post-long-hr {
     width: 508px;
     height: 1px;
-    background-color: #EDF0F5;
+    background: #EDF0F5;
     margin-top: 9px;
     margin-bottom: 21px;
 }
@@ -442,24 +449,25 @@ main {
     margin-bottom: 20px;
 } */
 
-.content-of-post :nth-child(1),
+.content-of-post :nth-child(1) {
+    color: #17272F;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .content-of-post :nth-child(2) {
     color: #17272F;
     font-size: 14px;
     font-weight: 400;
     line-height: normal;
-
-}
-
-.content-of-post :nth-child(2) {
-    margin-top: 12px;
-    margin-bottom: 12px;
 }
 
 .content-of-post :nth-child(2) a {
     color: #069;
     font-weight: 500;
 }
+
 
 .content-of-post figure img {
     width: 100%;
@@ -471,26 +479,12 @@ main {
     width: 508px;
     height: 1px;
     background-color: #EDF0F5;
+    margin-bottom: 21px;
 }
 
 .likes-comments {
     margin-top: 20px;
-}
-
-.likes-comments :nth-child(4) {
-    width: 10px;
-    height: 10px;
-    position: relative;
-}
-
-.likes-comments :nth-child(4) .icon-ellipse {
-    width: 2px;
-    height: 2px;
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    bottom: 50%;
-    left: 50%;
+    margin-bottom: 13px;
 }
 
 .likes-comments :nth-child(1) {
@@ -507,6 +501,24 @@ main {
     font-size: 10px;
     font-weight: 400;
     line-height: normal;
+}
+
+.likes-comments :nth-child(4) {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    font-weight: 400;
+
+}
+
+.likes-comments :nth-child(4) .icon-ellipse {
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
 }
 
 .likes-comments :nth-child(5) {
@@ -532,9 +544,15 @@ main {
     line-height: normal;
 }
 
+.pic-comment {
+    margin-top: 20px;
+    /* margin-bottom: 21px; */
+}
+
 .pic-comment .pic figure {
     width: 32px;
     height: 32px;
+    margin-right: 12px
 }
 
 .pic-comment .pic figure img {
@@ -546,20 +564,45 @@ main {
 .writing {
     width: 459px;
     height: 48px;
-    padding: 16px;
+    padding-right: 16px;
     border-radius: 6px;
     border: 1px solid #EDF0F5;
     background-color: white;
 }
 
+.writing p {
+    width: 400px;
+    height: 48px;
+    padding: 16px;
+    overflow: hidden;
+    outline: none;
+
+    color: #DEDEDE;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
 .comment .writting figure {
     flex-grow: 1;
+    padding: 16px;
 }
 
 .short-hr {
     width: 2px;
     height: 32px;
     background-color: #EDF0F5;
+}
+
+.little-shared-post {
+    margin-top: 18px;
+    width: 540px;
+    height: 200px;
+}
+
+.c-of-p-ch1 {
+
+    margin-bottom: 12px;
 }
 
 /* Shared Post */
