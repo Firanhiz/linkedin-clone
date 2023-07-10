@@ -1,0 +1,56 @@
+/* 2x Laptop */
+@media screen and (max-width: 1536px) {
+
+}
+
+/* X Laptop */
+@media screen and (max-width: 1280px) {
+
+.middle-side {
+    max-width: 400px;
+}
+
+.pic-comment {
+    max-width: 100%;
+}
+
+.writting {
+    width: 81px;
+}
+
+}
+
+/* Laptop */
+@media screen and (max-width: 1024px) {
+   
+    .right-side {
+        display: none;
+    }
+
+    .middle-side {
+        max-width: 540px;
+    }
+
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+    
+        .middle-side {
+            margin-right: 270px;
+            max-width: 540px;
+        }
+
+        .left-side {
+            display: none;
+        }
+
+        .main {
+            padding: 16px 0;
+        }
+    
+}
+
+/* Mobile */
+@media screen and (max-width: 640px) {
+
+}
