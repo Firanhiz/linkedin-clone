@@ -1,18 +1,29 @@
+body {
+    background-color: #DEDEDE52;
+}
+
 .container {
     width: 100%;
+    margin: 0 auto;
 }
 
 /* HEADER */
 header {
-    width: 1200px;
-    height: 56px;
-    padding: 16px 124px;
+    width: 100%;
     background-color: white;
 }
 
-.header-item1 {
-    margin-right: 68px;
+.header {
+    width: 1140px;
+    height: 56px;
+    margin: 0 auto;
+    /* padding: 16px 124px; */
+    background-color: white;
 }
+
+/* .header-item1 {
+    margin-right: 68px;
+} */
 
 .header-item1 .logo a figure {
     width: 92px;
@@ -44,9 +55,9 @@ header {
     outline: none;
 }
 
-.header-item2 {
+/* .header-item2 {
     margin-right: 140px;
-}
+} */
 
 .header-item2 a:not(:last-child) {
     margin-right: 32px;
@@ -80,14 +91,19 @@ header {
     text-align: right;
 }
 
-/* HEADER */
+.header .header-last-child {
+    display: none;
+}
 
+/* HEADER */
 
 /* LEFT SIDE */
 /* left-side-header */
 main {
-    padding: 16px 124px;
-    background-color: #DEDEDE52;
+    width: 1140px;
+    margin: 16px auto;
+    /* padding: 16px 124px; */
+    background: #F5F6F8;
 }
 
 .left-side .left-side-header {
